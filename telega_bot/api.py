@@ -1,7 +1,7 @@
 import requests
 import json
 
-BASE_URL = 'http://127.0.0.1:8000/open_weather_bot/v1'
+BASE_URL = 'http://localhost:8000/open_weather_bot/v1'
 
 
 def create_user(user_name, name, user_id):
